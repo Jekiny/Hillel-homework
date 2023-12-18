@@ -1,0 +1,15 @@
+li{
+    display: inline-block;
+    margin: 15px;
+    color: wheat;
+}
+.button{
+    margin-left: 400px;
+    color: black;
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+}
+ul{
+   text-align: center;
+}
