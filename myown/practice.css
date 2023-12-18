@@ -1,7 +1,8 @@
 li{
     display: inline-block;
     margin: 15px;
-    color: wheat;
+    color: black;
+    font-weight: bold;
 }
 .button{
     margin-left: 400px;
@@ -12,4 +13,56 @@ li{
 }
 ul{
    text-align: center;
+   
+   
+}
+header{
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 10px;
+    
+}
+body{
+    background-color: black;
+    margin-top: 0px;
+    
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 292px;
+    padding-right: 292px;
+    padding-top: 110px;
+    margin-top: 50px;
+}
+h1{
+    color: aqua;
+  padding-top: 10px;
+  margin: 30px;
+}
+span{
+    color: antiquewhite;
+    font-size: 20px;
+}
+footer{
+    margin-top: 280px;
+}
+.button-2{
+    text-align: center ;
+}
+
+.button-footer-blue{
+    color: white;
+    padding: 15px 30px;
+    margin: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.button-footer-white{
+    color:white;
+    background-color: rgb(2, 2, 2);
+    padding: 15px 30px;
+    margin: 20px;
+    border: 1px solid white;
 }
