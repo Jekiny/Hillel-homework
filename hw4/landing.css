@@ -1,0 +1,51 @@
+/* img{
+    width: 250px;
+} */
+.background{
+    background-color: yellow;
+}
+.container{
+    max-width: 1250px;
+    margin: 0px auto;
+}
+.wrapper{
+    background-color: rgb(51, 107, 212);
+    display: inline-block;
+    max-width: 1200px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    max-width: 250px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    background-color: white;
+    margin: 37px 23px;
+}
+.text{
+   text-align: center; 
+   margin: 20px 0px;
+  
+}
+span{
+    padding: 10px 0px;
+}
+.text-span{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+a{
+    display: block;
+    padding: 10px 40px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    max-width: 160px;
+    margin: 20px auto;
+}
+p{
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-weight: bold;
+}
