@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.main{background-color: rgb(228, 210, 210);}
+
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+
+.wrapper{
+
+
+text-align: center;
+background-color: beige;
+
+}
+
+.text{
+    display: inline-block;
+    font-size: 38px;
+    margin-top: 25px;
+    
+    
+  
+}
+.navigation{
+    display: inline-block;
+    margin-top: 41px;
+    margin-right: 196px;
+    margin-left: 247px;
+    
+}
+.icons{
+    display: inline-block;
+    
+    
+}
+.link{
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.images{
+    display: inline-block;
+   
+}
+
+/* блок после navigation */
+.aside-img{
+display: inline-block;
+}
+.img-furniture{
+    display: inline-block;
+}
+.image-furniture{
+    display: inline-block;
+}
+.furniture-card{
+    display: inline-block;
+}
