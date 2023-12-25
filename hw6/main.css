@@ -14,6 +14,7 @@
 
 text-align: center;
 background-color: beige;
+margin-bottom: 40px;
 
 }
 
@@ -21,6 +22,7 @@ background-color: beige;
     display: inline-block;
     font-size: 38px;
     margin-top: 25px;
+    margin-bottom: 20px;
     
     
   
@@ -44,22 +46,44 @@ background-color: beige;
 }
 .images{
     display: inline-block;
+    width: 16px;
    
 }
 
 /* блок после navigation */
+.main-2block{
+    background-color: lightblue;
+    border: 1px solid red;
+    
+    
+   display: inline-block;
+}
 .aside-img{
 display: inline-block;
+padding-right: 100px;
 }
 .img-furniture{
     display: inline-block;
 }
 .image-furniture{
     display: inline-block;
+    
 }
 .furniture-card{
     display: inline-block;
+    border: 1px solid lime;
+    
+    
+   
 }
 .wrapper-furniture{
     display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    
+  
+    
+}
+
+h1{
+    
 }
