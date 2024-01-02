@@ -1,0 +1,227 @@
+.navigation{
+background-color:bisque;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1100px;
+}
+.img-block1{
+    display: inline-block;
+}
+
+
+.block1{
+    background-color: #ffffff;
+    display: inline-block;
+    padding-bottom: 20px;
+    
+}
+.block-1{
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+.block1-li{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 34px;
+    padding-right: 25px;
+}
+.block1-icons{
+    display: inline-block;
+}
+.Drile{
+    padding-top: 25px;
+    margin-right: 247px;
+    background-color: transparent;
+}
+.image-icons{
+   
+    padding-top: 34px;
+}
+.block1-icons{
+    margin-left: 196px;
+
+}
+.icons{
+    padding-left: 30px;
+}
+/* Block2 */
+.block2{
+    background-color: blanchedalmond;
+    margin-top: 60px;
+}
+.btn-block2{
+    padding: 20px 30px;
+    margin-top: 25px;
+    background-color: #434343;
+    font-size: 16px;
+    
+}
+.a-blcok2{
+    color: white;
+}
+.image-inner2{
+    display: inline-block;
+    vertical-align: top;
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+.text-button{
+    display: inline-block;
+    margin-top: 103px;
+    max-width: 600px;
+    margin-left: 100px;
+}
+/* block3 */
+.block3-inner{
+    text-align: center;
+    background-color: aliceblue;
+}
+.BestSeller{
+    font-size: 40px;
+    margin-top: 84px;
+    margin-bottom: 40px;
+}
+.inner-images{
+    display: inline-block;
+    border: 1px solid lime;
+    padding: 60px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    
+    
+}
+.block-images-vector{
+    /* display: inline-block; */
+    
+}
+
+.vector-icons1{
+   
+position: absolute;
+top: 241px;
+padding: 2px;
+right: 5px;
+border: 1px solid rgb(216, 216, 210);
+
+
+}
+.vector-icons3{
+    position: absolute;
+    top: 174px;
+    padding: 2px;
+    right: 5px;
+    border: 1px solid rgb(216, 216, 210);
+}
+.vector-icons2{
+    position: absolute;
+    padding: 2px;
+    top: 206px;
+    right: 5px;
+    border: 1px solid rgb(216, 216, 210) ;
+}
+
+.inner-images:last-child{
+    margin-right: 0px;
+}
+.inner-icons{
+    display: inline-block;
+}
+
+.b-inner-width-images-main{
+ 
+    display: inline-block;
+vertical-align: top;
+}
+.text-image{
+    margin-top: 34px;
+   
+}
+
+.b-inner-3img{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 96px;
+    
+vertical-align: top;
+}
+
+.metal-vintage1{
+    display: block;
+    position: absolute;
+    top: 241px;
+padding: 2px;
+    right: 5px;
+    border: 1px solid rgb(216, 216, 210) ;
+
+}
+.metal-vintage2{
+    position: absolute;
+    padding: 2px;
+    top: 174px;
+    right: 5px;
+    border: 1px solid rgb(216, 216, 210) ;
+}
+.metal-vintage3{
+    position: absolute;
+    padding: 2px;
+    top: 206px;
+    right: 5px;
+    border: 1px solid rgb(216, 216, 210) ;
+}
+
+
+.b-inner-3img{
+    position: relative;
+}
+
+/* block4 */
+.sofa-text{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.armchsir{
+    margin-top: 180px;
+}
+
+.deal-of-the-week{
+padding: 12px 25px;
+border: 1px solid yellow;
+background-color: #8096BC;
+margin-bottom: 20px;
+color: white;
+
+}
+.ales{
+    display: flex;
+   
+}
+.lorem{
+    width: 405px;
+    border: 1px solid black;
+    margin-top: 28px;
+    margin-bottom: 36px;
+    
+}
+.from99{
+   margin-top: 48px;
+   margin-bottom: 28px;
+   font-size: 48px;
+   border: 1px solid #78A2CA;
+}
+.dealoftheweek{
+    margin-left: 104px;
+    flex-direction: column;
+    display: flex;      
+    margin-top: 104px;
+    align-items: flex-start;
+}
