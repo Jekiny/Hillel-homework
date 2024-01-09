@@ -1,0 +1,395 @@
+.header{
+    background-color: #F9F6F5;
+}
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.dudeshape-list{
+    display: flex;
+    column-gap: 40px;
+    
+    
+}
+.dudeshape-item{
+    
+   
+}
+.dudeshape-icon-list{
+    display: flex;
+    column-gap: 24px;
+}
+
+/* .search{
+    padding: 20px;
+    background-color: black;
+} */
+.cosmetics{
+    display: flex;
+    padding-bottom: 18px;
+    margin-bottom: 120px;
+}
+.cosmetics-block1{
+    margin-top: 50px;
+    margin-right: 11px;
+}
+h1{
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+.block1-cosemtics-text{
+    font-size: 20px;
+    margin-bottom: 38px;
+}
+input{
+    display: block;
+    border: 1px solid black;
+    padding: 20px;
+    width: 320px;
+}
+.search-product{
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 60px;
+}
+.search-icon{
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    top: 11px;
+    right: 8px;
+}
+
+.ShopNow{
+    display: block;
+}
+.shopnow-link{
+    padding: 16px 32px;
+   font-size: 18px;
+   background-color: #402F2C;
+   color: white;
+}
+
+/* block2 */
+.block2{
+    /* background-color: burlywood; */
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: hsl(15, 25%, 97%); */
+    padding: 53px 43px;
+    position: relative;
+    margin-bottom: 130px;
+}
+.above-line{
+    position: absolute;
+    width: 1100px;
+  height: 2px;
+  background-color: #402F2C;
+  top: 0px;
+  left: 0px;
+}
+.down-line{
+    position: absolute;
+    width: 1100px;
+  height: 2px;
+  background-color: #402F2C;
+  bottom: 0px;
+  left: 0px;
+
+}
+/* .bock2::before{
+  content: "";
+  display: block;
+  width: 1100px;
+  height: 2px;
+  background-color: #402F2C;
+} */
+/* block3 */
+.container1250{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.popular-product{
+    display: flex;
+    /* background-color: azure; */
+    align-items: center;
+    margin-bottom: 130px;
+    
+}
+.popular-product1{
+    margin-right: 189px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.text-popular-product{
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 32px;
+
+}
+
+.makeup{
+    
+}
+
+.cosmetic-product{
+    width: 525px;
+    border: 1px solid black;
+    padding-top: 98px;
+}
+h3{
+    font-size: 40px;
+    line-height: 60px;
+}
+.text-popular-product1{
+    margin-bottom: 16px;
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 32px;
+}
+.buynow{
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.buy-now-link{
+    padding: 16px 32px;
+    background-color: #402F2C;
+    color: white;
+}
+.add-to-cart{
+    padding: 16px 32px;
+    border: 1px solid black ;
+    color: black;
+    background-color: white;
+
+}
+.price{
+    font-size: 30px;
+    line-height: 32px;
+}
+
+
+.discover-ourproduct{
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+.arrow{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 98px;
+    margin-bottom: 105px;
+}
+.vector-link{
+    margin-right: 5px;
+}
+.cosmeticsunder{
+    padding-top: 98px;
+    border: 1px solid black;
+}
+
+/* block4 */
+.block4{
+    background-color: #F9F6F5;
+}
+.container-block4{
+    background-color: #402F2C;
+    
+}
+.container-block4{
+    max-width: 1050px;
+    margin: 0px auto;
+}
+.product-information{
+    background-color: #F9F6F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-information-list{
+   padding-top: 58px;
+   padding-bottom: 58px;
+}
+.product-information-item{
+    font-size: 56px;
+    line-height: 70px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+.product-information-item-underline{
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+/* block5 */
+footer{
+    background-color: #FAFAFA ;
+}
+.container5{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.perfect-body{
+    justify-content: center;
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+   
+}
+.perfect-body-information{
+    
+    background-color: #FAFAFA;
+}
+h4{
+    padding-top: 45px;
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.text-perfect-body{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.btn-perfect-body{
+    margin-top: 50px;
+}
+.perfect-body-link{
+    
+    padding: 16px 32px;
+    background-color: #402F2C;
+    color: white;
+}
+
+/* second-img */
+.smile-block5-main{
+    /* background-color: lightgoldenrodyellow; */
+    margin-bottom: 139px;
+}
+.smile{
+    display: flex;
+}
+.inner-smile{
+    margin-top: 109px;
+    
+    margin-left: 47px;
+}
+h6{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+.img-star{
+    margin-bottom: 43px;
+}
+.amazing-cosmetics{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+.under-name{
+     font-size: 24px;
+     line-height: 24px;
+}
+
+/* footer */
+.container-footer{
+    max-width: 1200px;  
+    margin: 0px auto    ;
+}
+.main-footer{
+    /* background-color: bisque; */
+    margin-bottom: 59px;
+}
+.subcribe{
+    font-size: 36px;
+    line-height: 46px;
+}
+.latest-news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 64px;
+    position: relative;
+    
+}
+.input-subcribe-btn{
+    width: 386px;
+}
+.btn-subcribe{
+    position: relative;
+}
+.subcribe-link{
+    padding: 12px 27px;
+    background-color: #402F2C;
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}
+.underline-footer{
+    border: 1px solid black;
+    width: 1200px;
+    height: 2px;
+    position: absolute  ;
+    bottom: 0px;
+    
+}
+
+/* inner-footer */
+.footer-navigation{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inner-footer-list-limit{
+    width: 340px;
+}
+.inner-footer-item-dudeshape{
+    margin-bottom: 39px;
+}
+.inner-footer-item{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 326px;
+}
+.inner-footer-item-quick{
+    padding-bottom: 39px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.inner-footer-item{
+    margin-bottom: 5px;
+}
+.inner-footer-item-contact-us{
+    
+
+}
