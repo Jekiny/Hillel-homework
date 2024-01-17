@@ -1,9 +1,13 @@
+navigaton {
+    background-color:#2A3342;
+}
 .main-nav{
     background-color:#2A3342;
 }
 .container{
     max-width: 1100px;
     margin: 0px auto;
+    padding: 0px 15px;
 }
 .nav{
     display: flex;
@@ -22,6 +26,7 @@
 .nav__btngroup{
     display: flex;
     column-gap: 20px;
+    align-items: center;
     
   
 }
@@ -31,8 +36,9 @@
 
 .nav__btn-group{
     color: #BBC3CF;
+    
 }
-.nav__btn-group_1{
+.nav__btn-group-1{
     padding: 8px 16px;
     background-color: #22C55E;
     border-radius: 5px;
@@ -41,10 +47,297 @@
 
 }
 /* media screen */
-@media screen and (max-width: 728px) {
-    .container{
+@media screen and (max-width: 625px) {
+    .nav__img{
+        margin-bottom: 10px;
+    }
+    .nav{
         background-color: aquamarine;
+       flex-direction: column;
 
     }
+    .nav__btn-group-2{
+        padding: 8px 16px;
+    background-color: #5c6f77;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    color: white;
+
+    }
+    .nav__list{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .nav__img{
+        margin-bottom: 10px;
+    }
+    .nav{
+        background-color: aquamarine;
+       flex-direction: column;
+       align-items: stretch;
+
+    }
+    .nav__logo{
+        display: flex;
+        align-self: center;
+    }
     
+    .nav__list{
+        flex-direction: column;
+       gap:  10px;
+       display: block;
+       
+    }
+    .nav__item{
+        display: block;
+       border: 1px solid black;
+       background-color: #2A3342;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+  
+   
+}
+
+/* block2.info-block{
+
+ */
+ .block2{
+    background-color:#2A3342;
+    padding-bottom: 200px;
+ }
+ .info-block-main   {
+    padding-top: 48px;
+ }
+.info-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.info-block__btnheader{
+    display: inline-flex;
+    width: 62px;
+    align-self: center;
+    margin-bottom   :24px ;
+    
+    
+
+    
+    
+}
+.info-block__header{
+    /* display: inline-flex;
+    width: 62px;
+    align-self: center;
+    
+    padding: 5px;
+    background-color: #22C55E;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-bottom: 24px; */
+    padding: 5px;
+    background-color: #22C55E;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px;
+   
+}
+.info-block__smallbusiness{
+   font-size: 60px;
+   line-height: 70px;
+   max-width: 740px;
+   align-self: center;
+   margin-bottom: 24px;
+}
+.info-block__different{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 715px;
+    align-self: center;
+    margin-bottom: 32px;
+}
+.info-block__Demo{
+    margin-bottom: 64px;
+    row-gap: 16px;
+}
+.info-block__RequestDemo{
+    padding: 16px 28px;
+    background-color: #22C55E;
+   color: white;
+   border-radius: 5px;
+    box-shadow: 5px;
+    margin-right: 16px;
+   
+}
+.info-block__SignUp{
+    padding: 16px;
+    background-color:  #404F65;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.video{
+    margin-top: -200px;
+}
+.video-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.video-img__vid{
+    max-width: 100%;
+}
+
+/* block3 */
+.block3{
+   
+}
+.block3__trusted{
+    display: block;
+    text-align: center;
+    /* что тут ? */
+    margin-bottom: 24px;
+    margin-top: 208px;
+    font-size: 16px;
+    line-height: 24px;
+    color:  #BBC3CF;
+   
+}
+.block3__list{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    margin-bottom: 86px;
+    margin-top: 32px;
+}
+.block3__item{
+    padding: 48px 39px;
+    border: 1px solid grey;
+    background-color: F7F8F9;
+}
+
+.block3__link{
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+   column-gap: 5px;   
+   /* почему column gap а не row-gap срабатывает */
+}
+.block3__jiggle{
+    
+    align-self: center;
+}
+@media screen and (max-width: 1200px){
+    .block3__list{
+        display: flex;
+        flex-direction: column;
+        background-color: lightgrey;
+        row-gap: 10px;
+       
+       
+    }
+    .block3__link{
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 7px;
+        display: flex;
+        column-gap: 5px;
+    }
+    .block3__item{
+        display: flex;
+        justify-content: center;
+        background-color: beige;
+        border: 1px solid black;
+        border-radius: 3px;
+        box-shadow: 1px red;
+
+    }
+    .block3__Jiggle-logo{
+
+    }
+    .block3__jiggle{
+
+    }
+}
+
+/* block4 */
+.block4-main{
+    background-color: #404F65;
+}
+.block4{
+    padding-top: 80px;
+}
+.numbers{
+    padding: 2px;
+    background-color: #22C55E;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    
+    
+}
+.believe{
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+letter-spacing: -0.96px;
+margin-bottom: 16px;
+}
+.flex   {
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+.block4__part2{
+    display: flex;
+}
+.block4__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block4__list{
+    
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-right: 100px;
+    border: 2px solid yellow;
+    align-items: center;
+}
+.block4__item{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+}
+.block4__item-inner{
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+letter-spacing: -0.96px;
+}
+.block4__item-inner-project{
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.block4__item-inner-specialists{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+
 }
