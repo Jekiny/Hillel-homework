@@ -1,0 +1,10 @@
+.row{
+    background-color: antiquewhite;
+}
+.feature__img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.feature__list{
+    flex-direction: row;
+}
