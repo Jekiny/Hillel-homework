@@ -1,0 +1,18 @@
+
+
+@mixin my-mixin($theme-color: pink, $height-apartment:200px){
+    background-color: $theme-color;
+    height: $height-apartment;
+}
+.apartment{
+    @include my-mixin;
+}
+
+
+@mixin my-bedroom($bedroom-mixin:green){
+    background-color: $bedroom-mixin;
+    height: 500px;
+}
+.bedroom{
+    @include my-bedroom;
+}
